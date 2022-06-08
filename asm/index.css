@@ -1,0 +1,314 @@
+* {
+    margin: 0 0;
+}
+
+body {
+    width: 980px;
+    margin: 0 auto;
+    font-family: 'Piazzolla', serif;
+    font-family: 'Source Serif 4', serif;
+    font-family: 'Texturina', serif;
+    text-align: justify;
+}
+
+nav {
+    background-color: #F5E3E2;
+
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 120px;
+
+}
+
+.menu {
+    float: left;
+    width: 830px;
+    height: 120px;
+    font-size: 20px;
+
+}
+
+nav marquee {
+    height: 60px;
+    line-height: 60px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.row1 a:hover {
+    font-size: larger;
+    font-weight: bolder;
+    color: orangered;
+}
+
+
+
+.khoangtrong {
+    clear: both;
+    background-color: #fff;
+    height: 5px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: 10px;
+    
+}
+
+.row1 button {
+    width: 100px;
+    height: 30px;
+    border-radius:10px ;
+    border: 1px solid gray;
+    background-color: #D6E8AC;
+}
+.row3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.row3 img{
+    width: 70%;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-color:#D6E8AC ;
+}
+.timkiem{
+    margin: 0px;
+    width: 18.5%;
+    height: 35px;
+    border: 1px solid gray;
+    background-color: #D6E8AC;
+    border-radius: 5px;
+}
+.row2 {
+    margin-top: 10px;
+    clear: both;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: ; */
+   
+    grid-gap: 5px;
+}
+.row2 img{
+    margin-top: 10px;
+}
+.item1 {
+    background-color: #cadce2;
+
+}
+.item1 a{
+    color: #EB5821;
+}
+.item1 a:hover{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.brand{
+    margin-left: 40px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.chinhsach{
+    width: 220px;
+    float: left;
+    margin: 20px 12px;
+}
+.chinhsach span{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chinhsach p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuoi p{
+    float: left;
+    color: rgb(165, 164, 164);
+    font-size: 13px;
+    margin: 30px 12px;
+}
+.cuoi{
+    width: 100%;
+}
+.muahang button {
+    width: 100px;
+    height: 30px;
+    border-radius:10px ;
+    border: 1px solid gray;
+    background-color: #f9af66;
+}
+.muahang a:hover button{
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #cadce2;
+}
+footer{
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    background-color:rgb(205, 223, 223) ;
+}
+
+.clear{
+    clear: both;
+}
+.mac1{
+    width: 388px;
+    float: left;
+    border: 1px rgb(220, 218, 218) solid;
+    background-color: rgb(210, 210, 210);
+}
+.mac2{
+    width: 560px;
+    margin-left: 28px;
+    float: left;
+    border: 1px rgb(220, 218, 218) solid;
+    background-color: rgb(221, 220, 220);
+}
+.phanthuong{height: 30px;
+    border: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #cadce2;
+}
+.noidungthuong{
+    border: 1px solid black;
+    border-top: 0px;
+   
+}
+article input{ 
+    width: 80%;
+    border-radius: 5px;
+}
+article button{
+    margin-top: 10px;
+    
+    height: 30px;
+    background-color: #e7b4a1;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.row4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+article a:hover button{
+    color: white;
+    background-color: black;
+}
+/* ip12pro */
+@media (max-width:391px) {
+    body {
+        width: 390px;
+    }
+    .menu{
+        height: 100px;
+    }
+    nav marquee {
+        height: 30px;
+        line-height: 30px;
+    }
+    .logo {
+        width: 390px;
+        height: 110px;
+    }
+
+    .logo img {
+        width: 30%;
+        margin-left: 8rem;
+    }
+
+    .row1 {
+        margin: 0px;
+        grid-template-columns: auto auto auto auto auto auto;
+        font-size: 15px;
+        margin-top: 10px;
+        /* grid-gap: 20px; */
+    }
+    input{
+        width: 78%;
+        height: 30px;
+        border-color:#D6E8AC ;
+    }
+    .row1 button {
+        width: 50px;
+        height: auto;
+        font-family: 'Piazzolla', serif;
+        font-family: 'Source Serif 4', serif;
+        font-family: 'Texturina', serif;
+    }
+
+    .menu {
+        clear: both;
+        width: 390px;
+
+    }
+
+    .row2 {
+        grid-template-columns: 100%;
+    }
+    .mac2{
+        width: 390px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .row4{
+        grid-template-columns: 100%;
+    }
+}
+
+@media (width: 820px) {
+    body{
+        width: 820px;
+    }
+    nav marquee {
+        height: 60px;
+        line-height: 60px;
+    }
+    .logo{
+        width: 20%;
+        float: left;
+        height: 140px;
+    }
+.logo img{
+    width: 90%;
+}
+    .menu{
+        width: 80%;
+        float: left;
+        height: 140px;
+    }
+   .mac1{
+       width: 820px;
+   }
+   .mac1 img {
+       width: 100%;
+   }
+   .mac2{
+       width: 820px;
+       margin: 0;
+       margin-top: 10px;
+
+   }
+   .row2{
+       grid-template-columns: auto auto;
+   }
+   .row4{
+       grid-template-columns: auto;
+   }
+}
